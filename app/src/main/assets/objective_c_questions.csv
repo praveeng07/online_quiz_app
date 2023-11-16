@@ -1,0 +1,31 @@
+Question,Option1,Option2,Option3,Option4,Answer
+Objective-C is an extension of which programming language?,C++,C#,Java,C,d) C
+Who developed Objective-C?,Steve Jobs,Tim Cook,Brad Cox and Tom Love,Bill Gates,c) Brad Cox and Tom Love
+"What does the ""@"" symbol represent in Objective-C?",Pointer operator,Message sending operator,String literal,Instance variable prefix,b) Message sending operator
+Which framework provides essential classes and functionalities in Objective-C?,Core Data,Foundation,UIKit,Core Graphics,b) Foundation
+Objective-C follows which programming paradigm?,Functional programming,Object-oriented programming,Procedural programming,Imperative programming,b) Object-oriented programming
+What is ARC in Objective-C?,Automatic Reference Counter,Advanced Runtime Configuration,Automatic Release Control,Automatic Reference Counting,d) Automatic Reference Counting
+How are comments written in Objective-C?,/* This is a comment */,// This is a comment,<!-- This is a comment -->,# This is a comment,b) // This is a comment
+"In Objective-C, what is the syntax for declaring a class interface?",class MyClass {},interface MyClass {},@interface MyClass {},def MyClass {},c) @interface MyClass {}
+How do you create an instance of a class in Objective-C?,MyClass obj = [MyClass new];,MyClass obj = MyClass();,MyClass *obj = [[MyClass alloc] init];,new MyClass obj;,c) MyClass *obj = [[MyClass alloc] init];
+"What does the ""alloc"" method do in Objective-C?",Allocates memory for a new object.,Deallocates memory for an object.,Initializes an object.,Allocates memory for an array.,a) Allocates memory for a new object.
+"What is the purpose of the ""dealloc"" method in Objective-C?",It allocates memory for an object.,It deallocates memory for an object.,It initializes an object.,It releases memory for an object.,b) It deallocates memory for an object.
+How do you define a property in Objective-C?,@property int age;,var age: Int;,int age;,property age;,a) @property int age;
+"In Objective-C, how do you call a method on an object?",[object methodName],object.methodName,object->methodName,methodName(object),a) [object methodName]
+"What is the purpose of the ""self"" keyword in Objective-C?",It refers to the superclass of the current class.,It refers to the current instance of the class.,It is used to create a new instance of a class.,It is used to access static methods.,b) It refers to the current instance of the class.
+What is the syntax for creating a method in Objective-C?,method myMethod {},func myMethod() {},def myMethod {},-(returnType)myMethod {},d) -(returnType)myMethod {}
+"In Objective-C, how do you declare a method that takes two parameters?","-(void)myMethod(param1, param2)",-(void)myMethod:(param1):(param2),-(void)myMethod:(param1) andParam:(param2),"-(void)myMethod(param1, andParam: param2)",c) -(void)myMethod:(param1) andParam:(param2)
+Which directive is used to import a header file in Objective-C?,#import,import,include,#include,a) #import
+"What is the purpose of the ""@synthesize"" directive in Objective-C?",It imports a header file.,It synthesizes accessor methods for properties.,It defines a protocol.,It allocates memory for an object.,b) It synthesizes accessor methods for properties.
+"What is the purpose of the ""IBOutlet"" keyword in Objective-C?",It marks a variable as an instance variable.,It marks a variable as an outlet for Interface Builder.,It marks a variable as a constant.,It marks a variable as a weak reference.,b) It marks a variable as an outlet for Interface Builder.
+"In Objective-C, what is the difference between ""retain"" and ""copy"" in property declarations?","""retain"" increases the reference count, while ""copy"" creates a shallow copy of the object.","""retain"" creates a shallow copy of the object, while ""copy"" increases the reference count.","""retain"" creates a deep copy of the object, while ""copy"" increases the reference count.","""retain"" increases the reference count, while ""copy"" creates a deep copy of the object.","d) ""retain"" increases the reference count, while ""copy"" creates a deep copy of the object."
+"What does the ""super"" keyword do in Objective-C?",It refers to the superclass of the current class.,It creates a new instance of a class.,It is used to access static methods.,It refers to the current instance of the class.,a) It refers to the superclass of the current class.
+"In Objective-C, how do you define a protocol?",interface MyProtocol {},protocol MyProtocol {},@protocol MyProtocol {},def MyProtocol {},c) @protocol MyProtocol {}
+What is the purpose of a protocol in Objective-C?,It defines a set of properties and methods that a class must implement.,It is used for memory management.,It defines a new data type.,It declares a class interface.,a) It defines a set of properties and methods that a class must implement.
+"In Objective-C, what is the syntax for adopting a protocol in a class?",class MyClass : MyProtocol {},class MyClass adopts MyProtocol {},class MyClass implements MyProtocol {},class MyClass @protocol MyProtocol {},a) class MyClass : MyProtocol {}
+Which method is called automatically when an object is about to be deallocated in Objective-C?,dealloc,delete,release,free,a) dealloc
+"What does the ""nil"" keyword represent in Objective-C?",An empty array,A null pointer,An empty string,An uninitialized variable,b) A null pointer
+How do you check if an object is nil in Objective-C?,object == nil,object = nil,object.isNull,object.isNil,a) object == nil
+"In Objective-C, what does the ""block"" syntax represent?",A multi-line comment,A function pointer,A lambda expression,A switch-case statement,c) A lambda expression
+How do you define a block in Objective-C?,^(returnType)(parameters) {},"block(returnType, parameters) {}",(returnType)(parameters) ^,"block(returnType, parameters)^ {}",a) ^(returnType)(parameters) {}
+"What is the purpose of the ""dispatch_async"" function in Objective-C?",It dispatches a block to run on the main thread asynchronously.,It dispatches a block to run on a background thread asynchronously.,It schedules a block to run after a specified delay.,It schedules a block to run periodically.,b) It dispatches a block to run on a background thread asynchronously.

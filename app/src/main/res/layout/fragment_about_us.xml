@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="2040dp"
+    android:minWidth="1080dp"
+    android:layout_gravity="center"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+        <!-- Space above the title (15% of the screen height) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15" />
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/about_us_title"
+            style="@style/AboutUsTitleText"
+            android:layout_width="wrap_content"
+            android:textColor="@color/backgroundText"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/about_us" />
+
+        <!-- Description Box (LinearLayout) -->
+        <LinearLayout
+            android:id="@+id/description_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_weight="85"
+            android:gravity="center"
+            android:background="@drawable/round_rectangle"
+            android:backgroundTint="@color/white"
+            android:elevation="4dp"
+            android:orientation="vertical">
+
+            <!-- Description TextView -->
+            <TextView
+                android:id="@+id/about_us_description"
+                style="@style/AboutUsDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Welcome to PaathShala, the ultimate Android app designed to enhance your learning journey! We understand the challenges students face in mastering their curriculum, which is why we created PaathShala – your virtual study companion. With curriculum-specific quizzes and an interactive learning experience, PaathShala makes studying engaging, accessible, and personalized. Enjoy offline access, community support, and empower your academic success. Download now and experience a new era of interactive learning with PaathShala!" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

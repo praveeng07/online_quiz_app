@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#CAC9C9"
+
+    tools:context=".ScoreCardActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/backgroundText"
+                android:id="@+id/txtCorrectAns"
+                android:text="Correct answers : 0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/backgroundText"
+                android:id="@+id/txtWrongAns"
+                android:text="Wrong answers : 0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/backgroundText"
+                android:textSize="20sp"
+                android:id="@+id/txtAccuracyAns"
+                android:text="Accuracy : 0%"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/background"
+        android:id="@+id/btnBackHome"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/white"
+        android:text="Back to home"/>
+</LinearLayout>

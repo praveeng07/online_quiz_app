@@ -1,0 +1,51 @@
+Question,Option1,Option2,Option3,Option4,Answer
+What is Python?,A type of snake,A high-level programming language,A mathematical equation,A computer operating system,b) A high-level programming language
+What is the syntax used for defining a function in Python?,a) def,b) fun,c) function,d) define,a) def
+Which of the following is not a valid variable name in Python?,a) my_variable,b) 123_variable,c) _variable,d) variable123,b) 123_variable
+"What is the output of the following code snippet?
+print(3 + 4 * 2)",a) 14,b) 11,c) 10,d) 21,b) 11
+How do you comment a single line in Python?,a) // This is a comment,b) /* This is a comment */,c) # This is a comment,d) <!-- This is a comment -->,c) # This is a comment
+"What is the output of the following code snippet?
+my_string = ""Hello, World!""
+print(my_string[7:])",a) Hello,b) World,"c) Hello, World",d) Error,b) World
+What is the correct way to create an empty list in Python?,a) my_list = [],b) my_list = {},c) my_list = (),"d) my_list = [""""]",a) my_list = []
+Which data type is used to store a sequence of characters in Python?,a) int,b) float,c) str,d) bool,c) str
+"What is the output of the following code snippet?
+print(len(""Python""))",a) 5,b) 6,c) 7,d) Error,a) 5
+How do you convert a string to lowercase in Python?,a) string.upper(),b) string.lower(),c) string.capitalize(),d) string.swapcase(),b) string.lower()
+Which keyword is used to exit a loop prematurely in Python?,a) exit,b) return,c) continue,d) break,d) break
+"What is the result of the following code snippet?
+my_tuple = (""apple"", ""banana"", ""cherry"")
+print(len(my_tuple))",a) 3,b) 5,c) 6,d) Error,a) 3
+Which operator is used for exponentiation in Python?,a) ^,b) **,c) %,d) //,b) **
+How do you check if a key exists in a dictionary?,a) key.exists(),b) key.in(),c) key.isin(),d) key in dictionary,d) key in dictionary
+"What is the output of the following code snippet?
+my_list = [1, 2, 3, 4, 5]
+print(my_list[2:4])","a) [1, 2]","b) [3, 4]","c) [2, 3]","d) [3, 4, 5]","b) [3, 4]"
+Which module is used for date and time manipulation in Python?,a) datetime,b) math,c) random,d) os,a) datetime
+How do you open a file in Python?,"a) open(file_name, ""r"")","b) open(""r"", file_name)","c) open(""r"", ""file_name"")",d) open(file_name),"a) open(file_name, ""r"")"
+"What is the output of the following code snippet?
+x = 5
+y = 2
+print(x % y)",a) 2,b) 3,c) 0,d) 2.5,a) 1
+"What is the purpose of the ""pass"" statement in Python?",a) To end the program,b) To skip a loop iteration,c) To print a message,d) To assign a value to a variable,b) To skip a loop iteration
+How do you add an element to the end of a list in Python?,"a) list.insert(0, element)",b) list.append(element),c) list.add(element),d) list.extend(element),b) list.append(element)
+"What is the output of the following code snippet?
+x = 10
+y = 5
+print(x > y)",a) True,b) False,c) Error,d) None,a) True
+Which function is used to find the maximum value in a list in Python?,a) min(),b) max(),c) sum(),d) len(),b) max()
+How do you remove an element from a list in Python?,a) list.remove(element),b) list.delete(element),c) list.pop(element),d) list.clear(element),a) list.remove(element)
+"What is the output of the following code snippet?
+x = True
+y = False
+print(x and y)",a) True,b) False,c) Error,d) None,b) False
+Which module is used for regular expression operations in Python?,a) math,b) datetime,c) re,d) sys,c) re
+How do you convert a string to an integer in Python?,a) str(),b) float(),c) int(),d) bool(),c) int()
+"What is the output of the following code snippet?
+my_set = {1, 2, 3, 4}
+my_set.add(5)
+print(my_set)","a) {1, 2, 3, 4}","b) {1, 2, 3, 4, 5}","c) {2, 3, 4, 5}",d) Error,"b) {1, 2, 3, 4, 5}"
+How do you round a floating-point number to the nearest integer in Python?,a) round(number),b) ceil(number),c) floor(number),d) int(number),a) round(number)
+"What is the purpose of the ""else"" statement in a try-except block in Python?",a) To handle an exception,b) To specify the type of exception,c) To execute a block of code if no exception occurs,d) To terminate the program,c) To execute a block of code if no exception occurs
+How do you convert a list to a tuple in Python?,a) tuple(),b) list(),c) set(),d) dict(),a) tuple()

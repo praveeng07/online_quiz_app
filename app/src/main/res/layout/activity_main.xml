@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Login heading -->
+    <TextView
+        android:id="@+id/loginHeadingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="Log in"
+        android:textColor="@color/background"
+        android:textSize="25sp" />
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/usernameLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/background" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtUserName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:boxStrokeColor="@color/loginScreenBorder"
+        app:boxStrokeWidth="1dp"
+        app:hintTextColor="@color/loginScreenBorder">
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:hint="Enter your username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password -->
+    <TextView
+        android:id="@+id/passwordLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/background" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/loginScreenBorder"
+        app:boxStrokeWidth="1dp"
+        app:hintTextColor="@color/loginScreenBorder"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Enter your password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Remember me -->
+    <CheckBox
+        android:id="@+id/rememberMeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Log in"
+        android:textColor="@color/background"
+        app:strokeColor="@color/background"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+Question,Option1,Option2,Option3,Option4,Answer
+What is Java primarily known for?,Being a markup language,Being a scripting language,Being an object-oriented programming language,Being a low-level programming language,c) Being an object-oriented programming language
+What is the bytecode in Java?,Code written in Java syntax,Code that runs directly on the CPU,Platform-specific machine code,Intermediate code that runs on the Java Virtual Machine (JVM),d) Intermediate code that runs on the Java Virtual Machine (JVM)
+Which keyword is used to define a constant variable in Java?,constant,final,static,immutable,b) final
+What is the main advantage of Java's platform independence?,Faster execution of code,Lower memory consumption,Ability to run on any platform with a JVM,Access to native OS functions,c) Ability to run on any platform with a JVM
+Which method is used to start the execution of a Java program?,main(),start(),execute(),run(),a) main()
+"In Java, what is the purpose of the ""new"" keyword?",To create a new object instance,To define a new class,To allocate memory for variables,To initialize an array,a) To create a new object instance
+What is the correct syntax to declare an array in Java?,"int[] numbers = {1, 2, 3};","array numbers = [1, 2, 3];","int numbers = {1, 2, 3};",array int numbers[3];,"a) int[] numbers = {1, 2, 3};"
+Which access modifier makes a class or member accessible only within the same package?,public,protected,private,default,d) default
+"What is the output of the following Java code?
+
+int x = 5;
+System.out.println(x++ + ++x);",10,11,12,15,c) 12
+Which method is used to read input from the user in Java?,System.out.print(),System.in.read(),System.input(),Scanner.nextLine(),d) Scanner.nextLine()
+Which keyword is used to create a subclass in Java?,subclass,extends,inherits,super,b) extends
+"What does the ""NullPointerException"" indicate in Java?",The program has a syntax error.,A variable is declared but not initialized.,An invalid cast operation is performed.,An attempt to access an object that is null.,d) An attempt to access an object that is null.
+Which data type is used to store single characters in Java?,char,String,Character,letter,a) char
+"What is the purpose of the ""break"" statement in Java?",To exit a loop or switch statement,To end the execution of a program,To skip the current iteration of a loop,To resume the execution after a pause,a) To exit a loop or switch statement
+Which of the following is NOT a valid Java identifier?,_variable,123var,$name,myVariable,b) 123var
+"What does the ""static"" keyword mean in Java?",The variable is constant and cannot be changed.,The variable is accessible without creating an object of the class.,The variable can only be accessed by subclasses.,The variable is local to the method where it is declared.,b) The variable is accessible without creating an object of the class.
+"What is the correct syntax for a ""for"" loop in Java?",for (int i = 0; i <= 10; i++),for (int i = 0; i <= 10),for i = 0 to 10,for (i = 0; i <= 10; i++),a) for (int i = 0; i <= 10; i++)
+"What is the output of the following Java code?
+
+String message = ""Hello"";
+message.concat("" World"");
+System.out.println(message);",Hello,World,Hello World,The code will not compile due to an error.,a) Hello
+Which Java keyword is used to handle exceptions?,try,handle,catch,throw,c) catch
+What is the correct way to declare a method that does not return any value in Java?,void methodName(),int methodName(),String methodName(),static methodName(),a) void methodName()
+Which of the following statements creates a copy of an array in Java?,arrayCopy = originalArray,arrayCopy = Arrays.copy(originalArray),arrayCopy = originalArray.clone(),arrayCopy = originalArray.copy(),c) arrayCopy = originalArray.clone()
+"What does the ""super"" keyword refer to in Java?",The superclass of the current class,The current instance of the class,The subclass of the current class,The parent package of the current class,a) The superclass of the current class
+What is the correct way to convert a String to an integer in Java?,"int num = Integer.parseInt(""123"")","int num = ""123"".toInt()","int num = (int) ""123""","int num = Integer.value(""123"")","a) int num = Integer.parseInt(""123"")"
+Which Java operator is used to allocate memory for an object?,new,alloc,malloc,create,a) new
+"What is the purpose of the ""this"" keyword in Java?",To refer to the current class instance,To create a new object,To access static variables,To call a superclass constructor,a) To refer to the current class instance
+What is the correct way to declare a constant variable in Java?,constant int num = 10;,"int num = 10;
+   num.constant = true;",final int num = 10;,const int num = 10;,c) final int num = 10;
+Which of the following statements is true about Java interfaces?,Interfaces can be instantiated to create objects.,A class can implement multiple interfaces.,Interfaces can have constructors.,Interfaces can be used to define concrete methods.,b) A class can implement multiple interfaces.
+"What is the output of the following Java code?
+
+int x = 5;
+if (x < 10) {
+    System.out.println(""Less than 10"");
+} else {
+    System.out.println(""Greater than or equal to 10"");
+}",Less than 10,Greater than or equal to 10,5,The code will not compile due to an error.,a) Less than 10
+What is the correct way to access a static variable in Java?,ClassName.variableName,this.variableName,super.variableName,variableName,a) ClassName.variableName
+How can you stop the execution of a thread in Java?,Call the stop() method on the thread.,Set a flag variable to stop the thread's execution.,Call the halt() method on the thread.,Use the yield() method to pause the thread.,b) Set a flag variable to stop the thread's execution.

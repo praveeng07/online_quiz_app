@@ -1,0 +1,31 @@
+Question,Option1,Option2,Option3,Option4,Answer
+What does SQL stand for?,a) Structured Query Language,b) Sequential Query Language,c) Standardized Query Logic,d) Structured Query Logic,a) Structured Query Language
+Which type of database does SQL primarily work with?,a) Hierarchical database,b) Network database,c) Relational database,d) Object-oriented database,c) Relational database
+Which SQL command is used to retrieve data from a database?,a) INSERT,b) DELETE,c) SELECT,d) UPDATE,c) SELECT
+What is the purpose of the SQL INSERT statement?,a) To update existing records in a table,b) To delete records from a table,c) To add new records to a table,d) To retrieve data from a table,c) To add new records to a table
+Which SQL keyword is used to filter data in a SELECT statement?,a) FILTER,b) WHERE,c) HAVING,d) BY,b) WHERE
+What is the purpose of the SQL UPDATE statement?,a) To add new records to a table,b) To delete records from a table,c) To update existing records in a table,d) To retrieve data from a table,c) To update existing records in a table
+Which SQL keyword is used to delete data from a table?,a) REMOVE,b) ERASE,c) DELETE,d) DROP,c) DELETE
+Which SQL statement is used to create a new database?,a) CREATE DATABASE,b) NEW DATABASE,c) ADD DATABASE,d) BUILD DATABASE,a) CREATE DATABASE
+Which SQL command is used to add a new table to an existing database?,a) CREATE TABLE,b) ADD TABLE,c) INSERT TABLE,d) NEW TABLE,a) CREATE TABLE
+Which SQL statement is used to change the structure of an existing table?,a) MODIFY TABLE,b) ALTER TABLE,c) CHANGE TABLE,d) UPDATE TABLE,b) ALTER TABLE
+Which SQL function is used to count the number of rows in a table?,a) SUM(),b) AVG(),c) COUNT(),d) MAX(),c) COUNT()
+The SQL ORDER BY keyword is used to:,a) Filter rows in a table,b) Group rows based on a condition,c) Sort rows in a specified order,d) Join multiple tables,c) Sort rows in a specified order
+Which SQL command is used to join two or more tables together based on a related column?,a) MERGE,b) UNION,c) JOIN,d) COMBINE,c) JOIN
+Which type of SQL join returns only the rows that have matching values in both tables?,a) INNER JOIN,b) LEFT JOIN,c) RIGHT JOIN,d) FULL JOIN,a) INNER JOIN
+What does the SQL GROUP BY clause do?,a) Filters rows in a table,b) Sorts rows in a specified order,c) Groups rows based on a condition,d) Combines multiple tables,c) Groups rows based on a condition
+Which SQL clause is used to filter rows after grouping with the GROUP BY clause?,a) HAVING,b) WHERE,c) ORDER BY,d) GROUP AFTER,a) HAVING
+What is the purpose of the SQL DISTINCT keyword?,a) Deletes duplicate rows from a table,b) Returns only the first occurrence of each unique value,c) Filters rows based on a condition,d) Changes the data type of a column,b) Returns only the first occurrence of each unique value
+Which SQL function is used to find the highest value in a column?,a) SUM(),b) AVG(),c) COUNT(),d) MAX(),d) MAX()
+What does the SQL LIKE operator do?,a) Compares two values for equality,b) Checks if a value is NULL,c) Searches for a pattern in a column,d) Combines the results of two queries,c) Searches for a pattern in a column
+The SQL BETWEEN operator is used to:,a) Combine the results of two queries,b) Check if a value falls within a specified range,c) Search for a pattern in a column,d) Compare two values for equality,b) Check if a value falls within a specified range
+The SQL IN operator is used to:,a) Combine the results of two queries,b) Check if a value is NULL,c) Search for a pattern in a column,d) Compare a value to a list of values,d) Compare a value to a list of values
+What does the SQL NULL value represent?,a) A missing or unknown value,b) Zero or empty value,c) A placeholder for future data,d) An error or invalid value,a) A missing or unknown value
+Which SQL statement is used to delete a table from a database?,a) DROP TABLE,b) DELETE TABLE,c) REMOVE TABLE,d) ERASE TABLE,a) DROP TABLE
+Which SQL command is used to grant permissions to a user in a database?,a) GRANT PERMISSION,b) GIVE PERMISSION,c) ALLOW PERMISSION,d) GRANT,d) GRANT
+What is the purpose of the SQL JOIN clause?,a) To filter rows in a table,b) To group rows based on a condition,c) To sort rows in a specified order,d) To combine rows from multiple tables,d) To combine rows from multiple tables
+Which SQL function is used to calculate the average value of a column?,a) SUM(),b) AVG(),c) COUNT(),d) MAX(),b) AVG()
+The SQL UNION operator is used to:,a) Combine the results of two queries,b) Check if a value is NULL,c) Search for a pattern in a column,d) Compare two values for equality,a) Combine the results of two queries
+What does the SQL NOT operator do?,a) Combines the results of two queries,b) Checks if a value is NULL,c) Negates a condition in a WHERE clause,d) Searches for a pattern in a column,c) Negates a condition in a WHERE clause
+The SQL TRUNCATE TABLE command is used to:,a) Delete specific rows from a table,b) Remove all rows from a table,c) Change the structure of a table,d) Update values in a table,b) Remove all rows from a table
+What is the purpose of the SQL GROUP BY clause?,a) Filters rows in a table,b) Sorts rows in a specified order,c) Groups rows based on a condition,d) Combines multiple tables,c) Groups rows based on a condition

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Question TextView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Question :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/QuestionHead"/>
+
+            <!-- Question Text -->
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Some question xyz?"
+                android:textSize="18sp"
+                android:theme="@style/Question" />
+
+            <!-- Options RadioGroup -->
+            <RadioGroup
+                android:id="@+id/rdOptions"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:theme="@style/OptionBackground">
+
+                <RadioButton
+                    android:id="@+id/rdOption1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) Communication" />
+
+                <RadioButton
+                    android:id="@+id/rdOption2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) Negotiation" />
+
+                <RadioButton
+                    android:id="@+id/rdOption3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) Persuasion" />
+
+                <RadioButton
+                    android:id="@+id/rdOption4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d) Presentation" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+               >
+                <!-- Submit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/background"
+                    android:text="Submit"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+
+                <!-- Submit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnReset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/background"
+                    android:text="Reset"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

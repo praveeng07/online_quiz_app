@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Sections">
+            <menu>
+                <item
+                    android:id="@+id/nav_home_screen"
+                    android:icon="@drawable/home_icon"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_c_prog"
+                    android:icon="@drawable/c_icon"
+                    android:title="C Programming" />
+                <item
+                    android:id="@+id/nav_cpp_prog"
+                    android:icon="@drawable/python_icon"
+                    android:title="Python" />
+                <item
+                    android:id="@+id/nav_java_prog"
+                    android:icon="@drawable/java_icon"
+                    android:title="Java" />
+                <item
+                    android:id="@+id/nav_db_prog"
+                    android:icon="@drawable/database_icon"
+                    android:title="DBMS" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="About">
+            <menu>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+                    android:title="Update Profile" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/about_icon"
+                    android:title="About" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/contact_icon"
+                    android:title="Contact us" />
+
+            </menu>
+        </item>
+
+    </group>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="2040dp"
+    android:minWidth="1080dp"
+    android:background="#CAC9C9"
+    android:layout_gravity="center"
+    tools:context=".ContactUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/appIcon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/pathshaala_logo"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/contactUsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/appIcon"
+            android:layout_marginTop="20dp"/>
+
+
+        <ImageView
+            android:id="@+id/emailIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/contactUsTitle"
+            android:layout_marginTop="32dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/email_icon"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageView
+            android:id="@+id/instagramIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/emailIcon"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/instagram_icon"
+            android:contentDescription="@string/app_name"/>
+
+
+        <ImageView
+            android:id="@+id/facebookIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/instagramIcon"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/facebook_icon"
+            android:contentDescription="@string/app_name"/>
+    </RelativeLayout>
+
+</FrameLayout>

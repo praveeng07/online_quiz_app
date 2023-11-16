@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter current password"
+        android:textColor="@color/background" />
+
+    <com.google.android.material.textfield.TextInputLayout
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    app:boxStrokeColor="@color/loginScreenBorder"
+    app:boxStrokeWidth="1dp"
+    app:hintTextColor="@color/loginScreenBorder">
+
+    <EditText
+        android:id="@+id/txtVerifyPass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:hint="Enter current password" />
+</com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+

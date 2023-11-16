@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PaathShala</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us_text">This is the About Us page of our app. You can add information about your team or organization here.</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="contact_us">You can Contact us on </string>
+</resources>
